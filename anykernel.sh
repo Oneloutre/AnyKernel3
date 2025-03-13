@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Kernel 4.9.337 for Bonito & Sargo by Onelots
+kernel.string=Caelum Kernel 4.9.337 for Bonito & Sargo by Onelots | https://discord.onelots.fr
 do.devicecheck=1
 do.modules=0
 do.systemless=1
