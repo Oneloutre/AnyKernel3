@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Caelum Kernel for Miatoll by Onelots | https://discord.onelots.fr 
+kernel.string=Caelum Kernel for OnePlus 7 by Onelots | https://discord.onelots.fr 
 kernel.made=Onelots
 kernel.version=4.14.336
 message.word=Thank you for installing Caelum Kernel !
@@ -13,11 +13,11 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=curtana
-device.name2=joyeuse
-device.name3=gram
-device.name4=excalibur
-device.name5=
+device.name1=guacamole
+device.name2=guacamoleb
+device.name3=hotdog
+device.name4=hotdogb
+device.name5=hotdogg
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
@@ -32,8 +32,8 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=0;
+block=/dev/block/by-name/boot;
+is_slot_device=1;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
