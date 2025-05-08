@@ -4,18 +4,18 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=Caelum Kernel 4.4 for OnePlus 5 by Onelots | https://discord.onelots.fr
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
-do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
+do.cleanuponabort=1
+device.name1=dumpling
+device.name2=OnePlus5T
+device.name3=cheeseburger
+device.name4=OnePlus5
 device.name5=
-supported.versions=
+supported.versions=9 - 15
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
@@ -29,7 +29,7 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+BLOCK=/dev/block/bootdevice/by-name/boot;
 IS_SLOT_DEVICE=0;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
